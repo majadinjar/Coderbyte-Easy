@@ -15,24 +15,20 @@ function ArithGeo(arr) {
        while(s<allObjects.length) {
         
           if(allObjects[s]===allObjects[s+1]) {
-            console.log("entered arit");
             result = "Arithmetic";
-            
- 
           }
+          
           else if(allObjects[s+1]%allObjects[s]===0) {
            result = "Geometric";
-           
           }
+          
           else {
             result = '-1';
-            
           }
          
-         return result;
-         }
- 
- 
+        return result;
+        
+        }
  
       }
  
