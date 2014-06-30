@@ -2,7 +2,7 @@ function AlphabetSoup(str) {
    var alphabet = "abcdefghijklmnopqrstuvwxyz";
    var string = "";
    var indices = [];
-   for (var i = 0; i < str.length; i++) {
+   for (var i=0; i<str.length; i++) {
       indices.push(alphabet.indexOf(str[i]));
    }
    indices.sort(function(a,b) {return b-a});
